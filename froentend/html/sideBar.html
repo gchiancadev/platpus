@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pagina">
+        <aside class="sidebar" id="sidebar">
+            <a class="marca" href="dashboard.html">PlastPlus</a>
+            <nav id="menu" aria-label="Menu principal"></nav>
+            <button id="btn-recolher" class="btn-menu" aria-expanded="true">Recolher menu</button>
+        </aside>
+        <div class="app">
+            <header class="topbar">
+                <input type="search" id="busca-global" aria-label="Buscar por ID, aluno ou projeto">
+                <a href="notificacoes.html" class="alertas">
+                    Alertas <span id="contador-alertas">0</span></a>
+            </header>
+            <main class="conteudo"><!-- a página entra aqui --></main>
+        </div>
+    </div>
+    
+    <script src="js/sideBar.js"></script>
+</body>
+
+</html>
